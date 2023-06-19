@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71DEAD042A40AFB90049D28B /* MelaviApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DEAD032A40AFB90049D28B /* MelaviApp.swift */; };
+		71DEAD062A40AFB90049D28B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DEAD052A40AFB90049D28B /* ContentView.swift */; };
+		71DEAD082A40AFBB0049D28B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71DEAD072A40AFBB0049D28B /* Assets.xcassets */; };
+		71DEAD0B2A40AFBB0049D28B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71DEAD0A2A40AFBB0049D28B /* Preview Assets.xcassets */; };
+		71DEAD152A40AFBB0049D28B /* MelaviTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DEAD142A40AFBB0049D28B /* MelaviTests.swift */; };
+		71DEAD1F2A40AFBB0049D28B /* MelaviUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DEAD1E2A40AFBB0049D28B /* MelaviUITests.swift */; };
+		71DEAD212A40AFBB0049D28B /* MelaviUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DEAD202A40AFBB0049D28B /* MelaviUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71DEAD112A40AFBB0049D28B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71DEACF82A40AFB90049D28B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71DEACFF2A40AFB90049D28B;
+			remoteInfo = Melavi;
+		};
+		71DEAD1B2A40AFBB0049D28B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71DEACF82A40AFB90049D28B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71DEACFF2A40AFB90049D28B;
+			remoteInfo = Melavi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71DEAD002A40AFB90049D28B /* Melavi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Melavi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71DEAD032A40AFB90049D28B /* MelaviApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelaviApp.swift; sourceTree = "<group>"; };
+		71DEAD052A40AFB90049D28B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		71DEAD072A40AFBB0049D28B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71DEAD0A2A40AFBB0049D28B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71DEAD102A40AFBB0049D28B /* MelaviTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelaviTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71DEAD142A40AFBB0049D28B /* MelaviTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelaviTests.swift; sourceTree = "<group>"; };
+		71DEAD1A2A40AFBB0049D28B /* MelaviUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelaviUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71DEAD1E2A40AFBB0049D28B /* MelaviUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelaviUITests.swift; sourceTree = "<group>"; };
+		71DEAD202A40AFBB0049D28B /* MelaviUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelaviUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71DEACFD2A40AFB90049D28B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71DEAD0D2A40AFBB0049D28B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71DEAD172A40AFBB0049D28B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71DEACF72A40AFB90049D28B = {
+			isa = PBXGroup;
+			children = (
+				71DEAD022A40AFB90049D28B /* Melavi */,
+				71DEAD132A40AFBB0049D28B /* MelaviTests */,
+				71DEAD1D2A40AFBB0049D28B /* MelaviUITests */,
+				71DEAD012A40AFB90049D28B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71DEAD012A40AFB90049D28B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71DEAD002A40AFB90049D28B /* Melavi.app */,
+				71DEAD102A40AFBB0049D28B /* MelaviTests.xctest */,
+				71DEAD1A2A40AFBB0049D28B /* MelaviUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71DEAD022A40AFB90049D28B /* Melavi */ = {
+			isa = PBXGroup;
+			children = (
+				71DEAD032A40AFB90049D28B /* MelaviApp.swift */,
+				71DEAD052A40AFB90049D28B /* ContentView.swift */,
+				71DEAD072A40AFBB0049D28B /* Assets.xcassets */,
+				71DEAD092A40AFBB0049D28B /* Preview Content */,
+			);
+			path = Melavi;
+			sourceTree = "<group>";
+		};
+		71DEAD092A40AFBB0049D28B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				71DEAD0A2A40AFBB0049D28B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		71DEAD132A40AFBB0049D28B /* MelaviTests */ = {
+			isa = PBXGroup;
+			children = (
+				71DEAD142A40AFBB0049D28B /* MelaviTests.swift */,
+			);
+			path = MelaviTests;
+			sourceTree = "<group>";
+		};
+		71DEAD1D2A40AFBB0049D28B /* MelaviUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71DEAD1E2A40AFBB0049D28B /* MelaviUITests.swift */,
+				71DEAD202A40AFBB0049D28B /* MelaviUITestsLaunchTests.swift */,
+			);
+			path = MelaviUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71DEACFF2A40AFB90049D28B /* Melavi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71DEAD242A40AFBB0049D28B /* Build configuration list for PBXNativeTarget "Melavi" */;
+			buildPhases = (
+				71DEACFC2A40AFB90049D28B /* Sources */,
+				71DEACFD2A40AFB90049D28B /* Frameworks */,
+				71DEACFE2A40AFB90049D28B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Melavi;
+			productName = Melavi;
+			productReference = 71DEAD002A40AFB90049D28B /* Melavi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71DEAD0F2A40AFBB0049D28B /* MelaviTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71DEAD272A40AFBB0049D28B /* Build configuration list for PBXNativeTarget "MelaviTests" */;
+			buildPhases = (
+				71DEAD0C2A40AFBB0049D28B /* Sources */,
+				71DEAD0D2A40AFBB0049D28B /* Frameworks */,
+				71DEAD0E2A40AFBB0049D28B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71DEAD122A40AFBB0049D28B /* PBXTargetDependency */,
+			);
+			name = MelaviTests;
+			productName = MelaviTests;
+			productReference = 71DEAD102A40AFBB0049D28B /* MelaviTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71DEAD192A40AFBB0049D28B /* MelaviUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71DEAD2A2A40AFBB0049D28B /* Build configuration list for PBXNativeTarget "MelaviUITests" */;
+			buildPhases = (
+				71DEAD162A40AFBB0049D28B /* Sources */,
+				71DEAD172A40AFBB0049D28B /* Frameworks */,
+				71DEAD182A40AFBB0049D28B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71DEAD1C2A40AFBB0049D28B /* PBXTargetDependency */,
+			);
+			name = MelaviUITests;
+			productName = MelaviUITests;
+			productReference = 71DEAD1A2A40AFBB0049D28B /* MelaviUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71DEACF82A40AFB90049D28B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					71DEACFF2A40AFB90049D28B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					71DEAD0F2A40AFBB0049D28B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 71DEACFF2A40AFB90049D28B;
+					};
+					71DEAD192A40AFBB0049D28B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 71DEACFF2A40AFB90049D28B;
+					};
+				};
+			};
+			buildConfigurationList = 71DEACFB2A40AFB90049D28B /* Build configuration list for PBXProject "Melavi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71DEACF72A40AFB90049D28B;
+			productRefGroup = 71DEAD012A40AFB90049D28B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71DEACFF2A40AFB90049D28B /* Melavi */,
+				71DEAD0F2A40AFBB0049D28B /* MelaviTests */,
+				71DEAD192A40AFBB0049D28B /* MelaviUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71DEACFE2A40AFB90049D28B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DEAD0B2A40AFBB0049D28B /* Preview Assets.xcassets in Resources */,
+				71DEAD082A40AFBB0049D28B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71DEAD0E2A40AFBB0049D28B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71DEAD182A40AFBB0049D28B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71DEACFC2A40AFB90049D28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DEAD062A40AFB90049D28B /* ContentView.swift in Sources */,
+				71DEAD042A40AFB90049D28B /* MelaviApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71DEAD0C2A40AFBB0049D28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DEAD152A40AFBB0049D28B /* MelaviTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71DEAD162A40AFBB0049D28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DEAD212A40AFBB0049D28B /* MelaviUITestsLaunchTests.swift in Sources */,
+				71DEAD1F2A40AFBB0049D28B /* MelaviUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71DEAD122A40AFBB0049D28B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71DEACFF2A40AFB90049D28B /* Melavi */;
+			targetProxy = 71DEAD112A40AFBB0049D28B /* PBXContainerItemProxy */;
+		};
+		71DEAD1C2A40AFBB0049D28B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71DEACFF2A40AFB90049D28B /* Melavi */;
+			targetProxy = 71DEAD1B2A40AFBB0049D28B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		71DEAD222A40AFBB0049D28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71DEAD232A40AFBB0049D28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71DEAD252A40AFBB0049D28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Melavi/Preview Content\"";
+				DEVELOPMENT_TEAM = 6C4CC7PXLP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjryan.Melavi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71DEAD262A40AFBB0049D28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Melavi/Preview Content\"";
+				DEVELOPMENT_TEAM = 6C4CC7PXLP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjryan.Melavi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71DEAD282A40AFBB0049D28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6C4CC7PXLP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjryan.MelaviTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Melavi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Melavi";
+			};
+			name = Debug;
+		};
+		71DEAD292A40AFBB0049D28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6C4CC7PXLP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjryan.MelaviTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Melavi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Melavi";
+			};
+			name = Release;
+		};
+		71DEAD2B2A40AFBB0049D28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6C4CC7PXLP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjryan.MelaviUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Melavi;
+			};
+			name = Debug;
+		};
+		71DEAD2C2A40AFBB0049D28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6C4CC7PXLP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjryan.MelaviUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Melavi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71DEACFB2A40AFB90049D28B /* Build configuration list for PBXProject "Melavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71DEAD222A40AFBB0049D28B /* Debug */,
+				71DEAD232A40AFBB0049D28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71DEAD242A40AFBB0049D28B /* Build configuration list for PBXNativeTarget "Melavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71DEAD252A40AFBB0049D28B /* Debug */,
+				71DEAD262A40AFBB0049D28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71DEAD272A40AFBB0049D28B /* Build configuration list for PBXNativeTarget "MelaviTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71DEAD282A40AFBB0049D28B /* Debug */,
+				71DEAD292A40AFBB0049D28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71DEAD2A2A40AFBB0049D28B /* Build configuration list for PBXNativeTarget "MelaviUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71DEAD2B2A40AFBB0049D28B /* Debug */,
+				71DEAD2C2A40AFBB0049D28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71DEACF82A40AFB90049D28B /* Project object */;
+}
