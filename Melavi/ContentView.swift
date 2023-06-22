@@ -20,7 +20,8 @@ struct ContentView: View {
     
     @State var activationFunctionOptions = ["softmax", "sigmoid", "logits"]
     @State var selectedActivationFunction = "softmax"
-    
+    @StateObject var sessionSettings : SessionSettings = .shared
+  
     var body: some View {
         ZStack {
             VStack {
@@ -76,11 +77,18 @@ struct ContentView: View {
                     }
                 }
                 
-                Picker("activation function",selection: $selectedActivationFunction) {
+                Picker("activation function",selection: $sessionSettings.activationFunction) {
                     ForEach(activationFunctionOptions, id: \.self) { item in
-                                    Text(item)
-                                }
+                        Text(item)
+                    }
                 }
+                
+                Picker("class threshold", selection: $sessionDataHandler.classThreshold) {
+                    ForEach(1 ..< 5) {
+                       Text("\($0-1) occurrences")
+                   }
+                }
+                
                 
                 
                 Divider()
@@ -94,6 +102,10 @@ struct ContentView: View {
                 Divider()
                 
                 ScrollView {
+                    
+                    
+                    
+                    
                     ForEach(self.sessionDataHandler.observations, id: \.self) { observation in
                         ObservationView(observation: observation)
                     }
@@ -145,7 +157,7 @@ class SessionDataHandler : ObservableObject {
     
     // The number of times that a particular class needs to be observed in
     // order for it to be listed as a prediction
-    var classThreshold : Int = 2
+    @Published var classThreshold : Int = 2
     
     func addObservation(confidence: Float, scientific_name: String, common_name: String, id: Int) {
         

@@ -153,9 +153,10 @@ class AudioTapper {
                         
                         
                         let predicted_id : Int = prediction.argmax()!
-                        print(self.soundClassifier.labelFromIndex(index: predicted_id), prediction[predicted_id])
+                        print(SessionSettings.shared.activationFunction, self.soundClassifier.labelFromIndex(index: predicted_id), prediction[predicted_id])
                         let label : String = self.soundClassifier.labelFromIndex(index: predicted_id)!
                         
+                        print(SessionDataHandler.shared.classThreshold)
                         
                         if prediction[predicted_id] > 0.9 {
                             DispatchQueue.main.async {
