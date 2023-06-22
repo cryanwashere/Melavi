@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59C83C42A4C6CCAE1CB9F9AC /* Pods_MelaviTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D3818B73BCE021C5603BAF /* Pods_MelaviTests.framework */; };
+		60CDCAF2071253029039C858 /* Pods_Melavi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64933F66BA9CE1DE0C3BF9F /* Pods_Melavi.framework */; };
+		7194A4492A40BD1B00B63CAC /* BirdNET_GLOBAL_2K_V2.1_Model_INT8.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 7194A4482A40BD1B00B63CAC /* BirdNET_GLOBAL_2K_V2.1_Model_INT8.tflite */; };
+		7194A44B2A40BD4200B63CAC /* v2.1_labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7194A44A2A40BD4200B63CAC /* v2.1_labels.txt */; };
+		7194A44D2A40BDB000B63CAC /* SoundClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7194A44C2A40BDB000B63CAC /* SoundClassifier.swift */; };
+		7194A4532A40EA0E00B63CAC /* BirdNET_GLOBAL_6K_V2.4_Model_INT8.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 7194A4522A40EA0E00B63CAC /* BirdNET_GLOBAL_6K_V2.4_Model_INT8.tflite */; };
+		7194A4552A40EA1300B63CAC /* BirdNET_GLOBAL_6K_V2.4_Labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7194A4542A40EA1300B63CAC /* BirdNET_GLOBAL_6K_V2.4_Labels.txt */; };
+		7194A4572A40EF7D00B63CAC /* SpeciesInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7194A4562A40EF7D00B63CAC /* SpeciesInfoView.swift */; };
 		71DEAD042A40AFB90049D28B /* MelaviApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DEAD032A40AFB90049D28B /* MelaviApp.swift */; };
 		71DEAD062A40AFB90049D28B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DEAD052A40AFB90049D28B /* ContentView.swift */; };
 		71DEAD082A40AFBB0049D28B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71DEAD072A40AFBB0049D28B /* Assets.xcassets */; };
@@ -14,6 +22,8 @@
 		71DEAD152A40AFBB0049D28B /* MelaviTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DEAD142A40AFBB0049D28B /* MelaviTests.swift */; };
 		71DEAD1F2A40AFBB0049D28B /* MelaviUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DEAD1E2A40AFBB0049D28B /* MelaviUITests.swift */; };
 		71DEAD212A40AFBB0049D28B /* MelaviUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DEAD202A40AFBB0049D28B /* MelaviUITestsLaunchTests.swift */; };
+		71DEAD2E2A40B1150049D28B /* AudioDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DEAD2D2A40B1150049D28B /* AudioDataHandler.swift */; };
+		A3F9B22CFE100FC197F56CE0 /* Pods_Melavi_MelaviUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE15E7DD815DA9220298021E /* Pods_Melavi_MelaviUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BED14F443F115FF29858B0F /* Pods-MelaviTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MelaviTests.release.xcconfig"; path = "Target Support Files/Pods-MelaviTests/Pods-MelaviTests.release.xcconfig"; sourceTree = "<group>"; };
+		3397103065D4AE9C2140CDD8 /* Pods-Melavi-MelaviUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Melavi-MelaviUITests.debug.xcconfig"; path = "Target Support Files/Pods-Melavi-MelaviUITests/Pods-Melavi-MelaviUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3848C42EA7FAB73E28CFEF49 /* Pods-Melavi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Melavi.release.xcconfig"; path = "Target Support Files/Pods-Melavi/Pods-Melavi.release.xcconfig"; sourceTree = "<group>"; };
+		70D3818B73BCE021C5603BAF /* Pods_MelaviTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MelaviTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7194A4482A40BD1B00B63CAC /* BirdNET_GLOBAL_2K_V2.1_Model_INT8.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = BirdNET_GLOBAL_2K_V2.1_Model_INT8.tflite; sourceTree = "<group>"; };
+		7194A44A2A40BD4200B63CAC /* v2.1_labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = v2.1_labels.txt; sourceTree = "<group>"; };
+		7194A44C2A40BDB000B63CAC /* SoundClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundClassifier.swift; sourceTree = "<group>"; };
+		7194A4522A40EA0E00B63CAC /* BirdNET_GLOBAL_6K_V2.4_Model_INT8.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = BirdNET_GLOBAL_6K_V2.4_Model_INT8.tflite; sourceTree = SOURCE_ROOT; };
+		7194A4542A40EA1300B63CAC /* BirdNET_GLOBAL_6K_V2.4_Labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BirdNET_GLOBAL_6K_V2.4_Labels.txt; sourceTree = SOURCE_ROOT; };
+		7194A4562A40EF7D00B63CAC /* SpeciesInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesInfoView.swift; sourceTree = "<group>"; };
 		71DEAD002A40AFB90049D28B /* Melavi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Melavi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71DEAD032A40AFB90049D28B /* MelaviApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelaviApp.swift; sourceTree = "<group>"; };
 		71DEAD052A40AFB90049D28B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +64,12 @@
 		71DEAD1A2A40AFBB0049D28B /* MelaviUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelaviUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71DEAD1E2A40AFBB0049D28B /* MelaviUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelaviUITests.swift; sourceTree = "<group>"; };
 		71DEAD202A40AFBB0049D28B /* MelaviUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelaviUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		71DEAD2D2A40B1150049D28B /* AudioDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDataHandler.swift; sourceTree = "<group>"; };
+		837E270F6B37CD0D9F271914 /* Pods-Melavi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Melavi.debug.xcconfig"; path = "Target Support Files/Pods-Melavi/Pods-Melavi.debug.xcconfig"; sourceTree = "<group>"; };
+		C27DEEC2BF6BB0227EA8A910 /* Pods-MelaviTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MelaviTests.debug.xcconfig"; path = "Target Support Files/Pods-MelaviTests/Pods-MelaviTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D298BDE8BF0079C8A06E28D9 /* Pods-Melavi-MelaviUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Melavi-MelaviUITests.release.xcconfig"; path = "Target Support Files/Pods-Melavi-MelaviUITests/Pods-Melavi-MelaviUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EE15E7DD815DA9220298021E /* Pods_Melavi_MelaviUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Melavi_MelaviUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64933F66BA9CE1DE0C3BF9F /* Pods_Melavi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Melavi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60CDCAF2071253029039C858 /* Pods_Melavi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59C83C42A4C6CCAE1CB9F9AC /* Pods_MelaviTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +93,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F9B22CFE100FC197F56CE0 /* Pods_Melavi_MelaviUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13F7462FA1780036624FAFB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				837E270F6B37CD0D9F271914 /* Pods-Melavi.debug.xcconfig */,
+				3848C42EA7FAB73E28CFEF49 /* Pods-Melavi.release.xcconfig */,
+				3397103065D4AE9C2140CDD8 /* Pods-Melavi-MelaviUITests.debug.xcconfig */,
+				D298BDE8BF0079C8A06E28D9 /* Pods-Melavi-MelaviUITests.release.xcconfig */,
+				C27DEEC2BF6BB0227EA8A910 /* Pods-MelaviTests.debug.xcconfig */,
+				1BED14F443F115FF29858B0F /* Pods-MelaviTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5715AAE6F591827DDB692426 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F64933F66BA9CE1DE0C3BF9F /* Pods_Melavi.framework */,
+				EE15E7DD815DA9220298021E /* Pods_Melavi_MelaviUITests.framework */,
+				70D3818B73BCE021C5603BAF /* Pods_MelaviTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		71DEACF72A40AFB90049D28B = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +130,8 @@
 				71DEAD132A40AFBB0049D28B /* MelaviTests */,
 				71DEAD1D2A40AFBB0049D28B /* MelaviUITests */,
 				71DEAD012A40AFB90049D28B /* Products */,
+				13F7462FA1780036624FAFB7 /* Pods */,
+				5715AAE6F591827DDB692426 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +150,13 @@
 			children = (
 				71DEAD032A40AFB90049D28B /* MelaviApp.swift */,
 				71DEAD052A40AFB90049D28B /* ContentView.swift */,
+				7194A4562A40EF7D00B63CAC /* SpeciesInfoView.swift */,
+				71DEAD2D2A40B1150049D28B /* AudioDataHandler.swift */,
+				7194A44C2A40BDB000B63CAC /* SoundClassifier.swift */,
+				7194A4482A40BD1B00B63CAC /* BirdNET_GLOBAL_2K_V2.1_Model_INT8.tflite */,
+				7194A4522A40EA0E00B63CAC /* BirdNET_GLOBAL_6K_V2.4_Model_INT8.tflite */,
+				7194A44A2A40BD4200B63CAC /* v2.1_labels.txt */,
+				7194A4542A40EA1300B63CAC /* BirdNET_GLOBAL_6K_V2.4_Labels.txt */,
 				71DEAD072A40AFBB0049D28B /* Assets.xcassets */,
 				71DEAD092A40AFBB0049D28B /* Preview Content */,
 			);
@@ -134,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71DEAD242A40AFBB0049D28B /* Build configuration list for PBXNativeTarget "Melavi" */;
 			buildPhases = (
+				ADD9FDE328B96BC1844FCBD1 /* [CP] Check Pods Manifest.lock */,
 				71DEACFC2A40AFB90049D28B /* Sources */,
 				71DEACFD2A40AFB90049D28B /* Frameworks */,
 				71DEACFE2A40AFB90049D28B /* Resources */,
@@ -151,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71DEAD272A40AFBB0049D28B /* Build configuration list for PBXNativeTarget "MelaviTests" */;
 			buildPhases = (
+				E14E24A31CA31E388A8486A2 /* [CP] Check Pods Manifest.lock */,
 				71DEAD0C2A40AFBB0049D28B /* Sources */,
 				71DEAD0D2A40AFBB0049D28B /* Frameworks */,
 				71DEAD0E2A40AFBB0049D28B /* Resources */,
@@ -169,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71DEAD2A2A40AFBB0049D28B /* Build configuration list for PBXNativeTarget "MelaviUITests" */;
 			buildPhases = (
+				E11D3FF78AAB97E67EA28C94 /* [CP] Check Pods Manifest.lock */,
 				71DEAD162A40AFBB0049D28B /* Sources */,
 				71DEAD172A40AFBB0049D28B /* Frameworks */,
 				71DEAD182A40AFBB0049D28B /* Resources */,
@@ -231,8 +295,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7194A4552A40EA1300B63CAC /* BirdNET_GLOBAL_6K_V2.4_Labels.txt in Resources */,
 				71DEAD0B2A40AFBB0049D28B /* Preview Assets.xcassets in Resources */,
 				71DEAD082A40AFBB0049D28B /* Assets.xcassets in Resources */,
+				7194A44B2A40BD4200B63CAC /* v2.1_labels.txt in Resources */,
+				7194A4532A40EA0E00B63CAC /* BirdNET_GLOBAL_6K_V2.4_Model_INT8.tflite in Resources */,
+				7194A4492A40BD1B00B63CAC /* BirdNET_GLOBAL_2K_V2.1_Model_INT8.tflite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +320,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ADD9FDE328B96BC1844FCBD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Melavi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E11D3FF78AAB97E67EA28C94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Melavi-MelaviUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E14E24A31CA31E388A8486A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MelaviTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		71DEACFC2A40AFB90049D28B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -259,6 +396,9 @@
 			files = (
 				71DEAD062A40AFB90049D28B /* ContentView.swift in Sources */,
 				71DEAD042A40AFB90049D28B /* MelaviApp.swift in Sources */,
+				7194A44D2A40BDB000B63CAC /* SoundClassifier.swift in Sources */,
+				71DEAD2E2A40B1150049D28B /* AudioDataHandler.swift in Sources */,
+				7194A4572A40EF7D00B63CAC /* SpeciesInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +551,7 @@
 		};
 		71DEAD252A40AFBB0049D28B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837E270F6B37CD0D9F271914 /* Pods-Melavi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -420,6 +561,7 @@
 				DEVELOPMENT_TEAM = 6C4CC7PXLP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses audio from your microphone to identify bird songs";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -430,6 +572,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-framework",
+					"\"TensorFlowLite\"",
+					"-framework",
+					"\"TensorFlowLiteC\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cjryan.Melavi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -440,6 +591,7 @@
 		};
 		71DEAD262A40AFBB0049D28B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3848C42EA7FAB73E28CFEF49 /* Pods-Melavi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,6 +601,7 @@
 				DEVELOPMENT_TEAM = 6C4CC7PXLP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses audio from your microphone to identify bird songs";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -459,6 +612,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-framework",
+					"\"TensorFlowLite\"",
+					"-framework",
+					"\"TensorFlowLiteC\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cjryan.Melavi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -469,6 +631,7 @@
 		};
 		71DEAD282A40AFBB0049D28B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27DEEC2BF6BB0227EA8A910 /* Pods-MelaviTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +652,7 @@
 		};
 		71DEAD292A40AFBB0049D28B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BED14F443F115FF29858B0F /* Pods-MelaviTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +673,7 @@
 		};
 		71DEAD2B2A40AFBB0049D28B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3397103065D4AE9C2140CDD8 /* Pods-Melavi-MelaviUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +692,7 @@
 		};
 		71DEAD2C2A40AFBB0049D28B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D298BDE8BF0079C8A06E28D9 /* Pods-Melavi-MelaviUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
